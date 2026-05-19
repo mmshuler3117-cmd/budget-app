@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Budget Burden</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Budget Burden</h1>
+
+    <h2 id="balance">$0</h2>
+
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <select id="category">
+        <option value="life">LIFE</option>
+        <option value="grub">Grub</option>
+        <option value="shelter">SHELTER</option>
+        <option value="bills">Bills</option>
+        <options value="funsies">Funsies</options>
+        <options value="impulse">Impulse Purcheses</options>
+    </select>
+
+    <button onclick="addIncome()">+ Income</button>
+    <button onclick="addExpense()">- Expense</button>
+
+
+    <h3>Transactions</h3>
+    <ul id="transactions"></ul>
+
+    <p id="ai-message">Booting Financial Judgement system ...... you are being monitored.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

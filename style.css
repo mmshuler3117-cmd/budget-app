@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Sophie";
+    src: url("./fonts/Sophie3-Regular.ttf");
+}
+
+body {
+    font-family: "Sophie", Arial, sans-seif;
+    background: #0f1115;
+    color: #d6d6d6;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #ff4d4d;
+    text-shadow: 0 0 10px rgba(255, 77, 77, 0.3);
+}
+
+h2#balance {
+    font-size: 48px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: px;
+    outline: none;
+    background: #1a1d24;
+    color: #fff;
+    margin: 10px;
+
+}
+
+button {
+    padding: 10px 16px;
+    margin: 6px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:nth-of-type(1) {
+    background: #2ecc71;
+}
+
+button:nth-of-type(2) {
+    background: #e74c3c;
+}
+
+p {
+    margin-top: 30px;
+    font-style: italic;
+    color: #888;
+}
+
+.negative {
+    color: #ff3b3b;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+#transactions {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#transactions li {
+    padding: 8px 12px;
+    margin: 6px auto;
+    width: 200px;
+    border-radius: 8px;
+    background: #1a1d24;
+    font-size: 14px;
+}
+
+.positive {
+    color: #2ecc71;
+    border-left: 4px solid #2ecc71;
+}
+
+.transaction-negative {
+    color: #ff3b3b;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+select {
+    padding: px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    background: #1a1d24;
+    color: white;
+}
